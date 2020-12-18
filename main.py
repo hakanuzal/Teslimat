@@ -17,7 +17,7 @@ class Book(db.Document):
     author = db.StringField
 
     def to_json(self):
-//denemee
+#denemee
         return {
             "book_id": self.book_id,
             "name": self.name,
